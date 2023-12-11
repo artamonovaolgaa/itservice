@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Веб-разработка</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet">    
+    <link href="assets/css/accordion.css" rel="stylesheet">  
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            
+</head>
+<body>    
+    <div class="bgparallax"></div>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-top">
+        <div class="container">
+            <header style="padding-top:5px;">
+                <!-- Блок с уникальным именем logo и стилем, который задаёт выравнивание элемента по левому краю -->
+                <div id="logo" style="float:left">
+                <!-- Элемент img для вывода изображения, которое имеет имя logo.png и расположено в папке images -->
+                <a href="index.html"><img src="assets/img/logo.png"></a></div>  
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">САЙТ "под ключ"</a> </div>               
+                <!-- Блок с уникальным именем contacts и стилем, который задаёт выравнивание элемента по правому краю -->
+                <div id="contacts" style="float:right;">
+                    <!--Элемент i служит для вывода иконки Awesome с именем fa-mobile -->
+                    <i class="fa fa-mobile fa-lg"></i> +7-929-379-92-97 |
+                    <i class="fa fa-envelope fa-lg"></i> it_a_o_a@mail.ru
+                    <button class="trigger">Бесплатная консультация</button>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">×</span>
+                            <form method="post" action="#">
+                                <input type="text" name="name" id="header_form_name" placeholder="Имя *">
+                                <input type="text" name="tel" id="header_form_name" placeholder="Телефон *">
+                                <input type="text" name="email" id="header_form_email" placeholder="E-mail *">
+                                <input type="submit" name="submit" value="ОСТАВИТЬ ЗАЯВКУ" class="btn-primary"> 
+                            </form>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="clearfix"></div>            
+            </header> 
+                <!-- Навигационное меню -->    
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-menu">
+                        <ul class="nav navbar-nav">
+                            <!-- Активный пункт меню "Главная" -->
+                            <li class="active"><a href="index.html">ГЛАВНАЯ</a></li>
+                            <!-- Пункт меню "Обо мне" -->
+                            <li class="active"><a href="index.html">ОБО МНЕ</a></li>
+                            <!-- Пункт меню "Преимущества" -->
+                            <li class="active"><a href="index.html">ПРЕИМУЩЕСТВА</a></li>
+                            <!-- Пункт меню "Услуги" -->
+                            <li class="active"><a href="index.html">УСЛУГИ</a></li>
+                            <!-- Пункт меню "Проекты" -->
+                            <li class="active"><a href="index.html">ПРОЕКТЫ</a></li>                                
+                            <!-- Пункт меню "Портфолио" -->
+                            <li class="active"><a href="portfolio.html">ВЕБ-РАЗРАБОТКА</a></li>
+                            <!-- Пункт меню "Галерея" -->
+                            <li class="active"><a href="slider.html">ВЕБ-ДИЗАЙН</a></li>       
+                            <!-- Пункт меню "Отзывы" -->
+                            <li class="active"><a href="index.html">ОТЗЫВЫ</a></li>
+                            <!-- Пункт меню "Контакты" -->
+                            <li class="active"><a href="contacts.html">КОНТАКТЫ</a></li>                           
+                            <!-- Пункт меню "Блог" -->
+                            <li class="active"><a href="blog.html">БЛОГ</a></li>
+                        </ul> 
+                    </div>                  
+                </nav>  
+        </div>
+    </div>       
+    <main role="main">                       
+        <!-- Проекты -->
+        <!-- Блок, содержащий информацию об основных проектах --> 
+        <div class="container">                          
+            <section id="work">
+                <!-- Создание ряда, с выравниванием текста внутри блока по центру и заполнением фона цветом #f3f3f3 -->
+                <div class="row" style="text-align:center;">
+                <!-- Создание заголовка h2 -->
+                <h2><b>ПОРТФОЛИО ПРОЕКТОВ</b></h2>                                        
+                <!-- Создание горизонтальной линии -->
+                <hr />
+                <!-- Создание дополнительного текста под заголовком -->
+                <p class="lead"><b>Веб-разработка</b></p>    
+                <div class="sim-slider">
+                    <ul class="sim-slider-list">
+                        <li><img src="assets/img/w.png" alt="screen"></li> <!-- это экран -->
+                        <li class="sim-slider-element"><img src="assets/img/w.png" alt="0"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w1.png" alt="1"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w2.png" alt="2"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w3.png" alt="3"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w4.png" alt="4"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w5.png" alt="5"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w6.png" alt="6"></li>
+                        <li class="sim-slider-element"><img src="assets/img/w7.png" alt="7"></li> 
+                        <li class="sim-slider-element"><img src="assets/img/w8.png" alt="8"></li>   
+                        <li class="sim-slider-element"><img src="assets/img/w9.png" alt="7"></li> 
+                        <li class="sim-slider-element"><img src="assets/img/w10.png" alt="8"></li>
+                    </ul>
+                    <div class="sim-slider-arrow-left"></div>
+                    <div class="sim-slider-arrow-right"></div>
+                    <div class="sim-slider-dots"></div>
+                </div> 
+                <details>
+                    <!-- Создание дополнительного текста под заголовком -->
+                    <summary><p class="lead"><b>Веб-разработка</b></p></summary>                        
+                    <!-- Создание 0 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="http://artamonovaolga.ru/" target="_blank">сайт "Дизайн и разработка веб-сайтов"</a></h4>
+                                <p>HTML+CSS+JS</p>
+                                <p>ФДО Профессия "Веб-разработчик"</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>    
+                    <!-- Создание 1 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="http://wordpress.host1864915.hostland.pro/" target="_blank">сайт "Репетитор по физике"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>ФДО Профессия "Веб-разработчик"</p>
+                                <br>
+                                <h4><a href="http://proekt.host1864915.hostland.pro/index.html" target="_blank">сайт "Репетитор по физике"</a></h4>
+                                <p>HTML+CSS+JS</p>
+                                <p>ФДО Профессия "Веб-разработчик"</p>                                
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w1.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 2 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://taplink.cc/vi_zit_ka" target="_blank">сайт "Веб-разработчик"</a></h4>
+                                <p>Taplink</p>
+                                <p>школа Литвиновых</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w2.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 3 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://taplink.cc/artamonovaolga" target="_blank">сайт "Салон красоты (маникюр)"</a></h4>
+                                <p>Taplink</p>
+                                <p>школа Литвиновых</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w3.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 4 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://snezka.tilda.ws/" target="_blank">сайт "Магазин кукол Снежка"</a></h4>
+                                <p>Tilda</p>
+                                <p>школа Литвиновых</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w4.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 5 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://vizitkaaoa.wordpress.com/" target="_blank">сайт-визитка "Технический специалист"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>учебный центр Артема Башлыкова</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w5.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 6 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://serviceaoa.wordpress.com/" target="_blank">сайт "Веб-сервис"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>учебный центр Артема Башлыкова</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w6.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 7 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://elenavegera.ru/" target="_blank">сайт "Стоматологический кабинет"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>заказчик: Вегера Е.Б.</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w7.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 8 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://viktorishumakher.ru/" target="_blank">сайт "Стоматологический кабинет"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>заказчик: Шумахер В.А.</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w8.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 9 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="https://dialog-uk.ru/" target="_blank">сайт управляющей компании "ООО Диалог"</a></h4>
+                                <p>CMS WordPress</p>
+                                <p>заказчик: Васильченко О.В.</p>
+                                <p>сайт в разработке</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w9.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                    <!-- Создание 10 блока -->
+                    <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
+                        background: #cdcdcd; border-radius: 3px; color:black;">
+                            <li class="list1_desc" style="float:left; width:30%; min-width:100px;">                            
+                                <h4><a href="http://ck89546-wordpress-blvxa.tw1.ru/index.html" target="_blank">сайт "Свежевыжатые Соки"</a></h4>
+                                <p>HTML+CSS+JS+PHP</p>                            
+                                <p>Старбиззз-школа веб-дизайна</p>
+                            </li>
+                            <li class="list1_img" style="float:left; width: 60%; margin-left:1em;">                            
+                                <img src="assets/img/w10.png" class="img-responsive">
+                            </li>
+                            <!-- Блок для очистки потока и правильного отображения последующих блоков -->
+                            <div class="clearfix"> </div>
+                    </ul>
+                </details> 
+                </div>                     
+            </section>
+        </div>            
+        <!-- Призыв к действию  -->
+        <section id="contacts" class="action">
+            <div class="container">
+                <div class="row">
+                    <h2>Свяжитесь со мной удобным для Вас способом</h2>
+                    <h4>и мы договоримся о выбранной Вами услуге:</h4>                    
+                </div>
+                <br>
+                <form method="post" action="#">
+                    <input type="text" name="name" id="header_form_name" placeholder="Имя *">
+                    <input type="text" name="tel" id="header_form_name" placeholder="Телефон *">
+                    <input type="text" name="email" id="header_form_email" placeholder="E-mail *">
+                    <input type="submit" name="submit" value="Связаться сейчас!" class="btn-primary"> 
+                </form>
+                <br>                
+                <div class="info-box">                
+                    <h4>Контакты</h4>                        
+                    <p><span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="info">Алтайский край, Каменский район, село Корнилово</span></p>                        
+                    <p><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="info"><a href="tel:+7 (929) 379-92-97">+7 (929) 379-92-97</a></span> | 
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="info"><a href="mailto:it_a_o_a@mail.ru">it_a_o_a@mail.ru</a></span></p>
+                    <p><a href="whatsapp://send?phone=+79293799297">Whatsapp</a> |  
+                    <a href="https://vk.com/artamonovaolgaa">Vk</a>  |
+                    <a href="https://telegram.me/it_a_o_a">Telegram</a></p>   
+                    <h4>Поделитесь в соцсетях</h4>   
+                    <div class="ya-share2" data-curtain data-size="s" data-shape="round" data-services="whatsapp,vkontakte,telegram,odnoklassniki"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer================================================== -->
+    <footer>
+        <div class="container">
+            <p>© разработано в рамках программы ФДО Профессия "Веб-разработчик" </p>
+        </div>
+    </footer>
+    
+    <script src="assets/js/accordion.js"></script>    
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/modalButton.js"></script>
+    <script src="assets/js/slider.js"></script>  
+    <script src="https://yastatic.net/share2/share.js" async></script>       
+    <script type="text/javascript">
+        $(window).scroll(function (e) {
+            parallax();
+        });
+
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.bgparallax').css('top', -(scrolled * 0.2) + 'px');
+        }
+    </script>  
+    <!-- Bootstrap JS размещен внизу для ускорения загрузки -->
+    <script src="assets/js/bootstrap.js"></script>
+    
+</body>
+</html>

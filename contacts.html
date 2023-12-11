@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Контакты</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet">
+    <link href="assets/css/contacts.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+</head>
+<body>
+    <div class="bgparallax"></div>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-top">
+        <div class="container">
+            <header style="padding-top:5px;">
+                <!-- Блок с уникальным именем logo и стилем, который задаёт выравнивание элемента по левому краю -->
+                <div id="logo" style="float:left">
+                <!-- Элемент img для вывода изображения, которое имеет имя logo.png и расположено в папке images -->
+                <a href="index.html"><img src="assets/img/logo.png"></a></div> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">САЙТ "под ключ"</a> </div>                
+                <!-- Блок с уникальным именем contacts и стилем, который задаёт выравнивание элемента по правому краю -->
+                <div id="contacts" style="float:right;">
+                    <!--Элемент i служит для вывода иконки Awesome с именем fa-mobile -->
+                    <i class="fa fa-mobile fa-lg"></i> +7-929-379-92-97 |
+                    <i class="fa fa-envelope fa-lg"></i> it_a_o_a@mail.ru
+                    <button class="trigger">Бесплатная консультация</button>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">×</span>
+                            <form method="post" action="#">
+                                <input type="text" name="name" id="header_form_name" placeholder="Имя *">
+                                <input type="text" name="tel" id="header_form_name" placeholder="Телефон *">
+                                <input type="text" name="email" id="header_form_email" placeholder="E-mail *">
+                                <input type="submit" name="submit" value="ОСТАВИТЬ ЗАЯВКУ" class="btn-primary"> 
+                            </form>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="clearfix"></div>            
+            </header> 
+                <!-- Навигационное меню -->    
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-menu">
+                        <ul class="nav navbar-nav">
+                            <!-- Активный пункт меню "Главная" -->
+                            <li class="active"><a href="index.html">ГЛАВНАЯ</a></li>
+                            <!-- Пункт меню "Обо мне" -->
+                            <li class="active"><a href="index.html">ОБО МНЕ</a></li>
+                            <!-- Пункт меню "Преимущества" -->
+                            <li class="active"><a href="index.html">ПРЕИМУЩЕСТВА</a></li>
+                            <!-- Пункт меню "Услуги" -->
+                            <li class="active"><a href="index.html">УСЛУГИ</a></li>
+                            <!-- Пункт меню "Проекты" -->
+                            <li class="active"><a href="index.html">ПРОЕКТЫ</a></li>                                
+                            <!-- Пункт меню "Портфолио" -->
+                            <li class="active"><a href="portfolio.html">ВЕБ-РАЗРАБОТКА</a></li>
+                            <!-- Пункт меню "Галерея" -->
+                            <li class="active"><a href="slider.html">ВЕБ-ДИЗАЙН</a></li>       
+                            <!-- Пункт меню "Отзывы" -->
+                            <li class="active"><a href="index.html">ОТЗЫВЫ</a></li>
+                            <!-- Пункт меню "Контакты" -->
+                            <li class="active"><a href="contacts.html">КОНТАКТЫ</a></li>                           
+                            <!-- Пункт меню "Блог" -->
+                            <li class="active"><a href="blog.html">БЛОГ</a></li>
+                        </ul>                      
+                    </div>
+                </nav>  
+        </div>
+    </div>    
+    <main role="main">    
+        <!-- Контакты -->
+        <section id="testimonials" class ="testimonials">
+        <h2 class="text-center"><b>КОНТАКТЫ</b></h2>
+        <!-- Создание горизонтальной линии -->
+        <hr />
+        <div class="map">	
+            <div class="wrp">
+                <div class="map-box">
+                    <h3>Адрес:</h3>
+                    <p>Алтайский край, Каменский район, село Корнилово</p>
+                    <h3>Телефон:</h3>
+                    <p><a href="tel:+7 (929) 379-92-97">+7 (929) 379-92-97</a></p>
+                    <h3>Email:</h3>
+                    <p><a href="it_a_o_a@mail.ru">it_a_o_a@mail.ru</a></p>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>        
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A367d92673bac4d2e9f141f1853fedee1bfba9f8b8ea54328329533274ee3ce16&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        
+        <script>
+        ymaps.ready(init); 
+        function init(){
+            var myMap = new ymaps.Map("map",{center: [55.85,37.45],zoom: 13});            
+            // Элементы управления картой
+            //myMap.controls.add("zoomControl").add("typeSelector").add("mapTools");            
+            ymaps.geocode("Алтайский край, Каменский район, село Корнилово").then(function (res) {
+                var coord = res.geoObjects.get(0).geometry.getCoordinates();
+                var myPlacemark = new ymaps.Placemark(coord, {}, {
+                    iconImageHref: "/img/map.png",
+                    iconImageSize: [54, 74],
+                    iconImageOffset: [-27, -74]
+                });
+                myMap.geoObjects.add(myPlacemark);
+                myMap.setCenter(coord);	                    
+                // Сдвиг центра карты вправо
+                var newcoord = myMap.getGlobalPixelCenter();
+                newcoord[0] -= 150;
+                myMap.setGlobalPixelCenter(newcoord);				
+            });
+        }
+        </script>                        
+        </section>  
+        <!-- Призыв к действию  -->
+        <section id="contacts" class="action">
+            <div class="container">
+                <div class="row">
+                    <h2>Свяжитесь со мной удобным для Вас способом</h2>
+                    <h4>и мы договоримся о выбранной Вами услуге:</h4>                    
+                </div>
+                <br>
+                <form method="post" action="#">
+                    <input type="text" name="name" id="header_form_name" placeholder="Имя *">
+                    <input type="text" name="tel" id="header_form_name" placeholder="Телефон *">
+                    <input type="text" name="email" id="header_form_email" placeholder="E-mail *">
+                    <input type="submit" name="submit" value="Связаться сейчас!" class="btn-primary"> 
+                </form>
+                <br>                
+                <div class="info-box">                
+                    <h4>Контакты</h4>                        
+                    <p><span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="info">Алтайский край, Каменский район, село Корнилово</span></p>                        
+                    <p><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="info"><a href="tel:+7 (929) 379-92-97">+7 (929) 379-92-97</a></span> | 
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="info"><a href="mailto:it_a_o_a@mail.ru">it_a_o_a@mail.ru</a></span></p>
+                    <p><a href="whatsapp://send?phone=+79293799297">Whatsapp</a> |  
+                    <a href="https://vk.com/artamonovaolgaa">Vk</a>  |
+                    <a href="https://telegram.me/it_a_o_a">Telegram</a></p>   
+                    <h4>Поделитесь в соцсетях</h4>   
+                    <div class="ya-share2" data-curtain data-size="s" data-shape="round" data-services="whatsapp,vkontakte,telegram,odnoklassniki"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer================================================== -->
+    <footer>
+        <div class="container">
+            <p>© разработано в рамках программы ФДО Профессия "Веб-разработчик" </p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/modalButton.js"></script>
+    <script src="https://yastatic.net/share2/share.js" async></script>    
+    <script type="text/javascript">
+        $(window).scroll(function (e) {
+            parallax();
+        });
+
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.bgparallax').css('top', -(scrolled * 0.2) + 'px');
+        }
+    </script>
+    <!-- Bootstrap JS размещен внизу для ускорения загрузки -->
+    <script src="assets/js/bootstrap.js"></script>
+
+    </body>
+</html>
